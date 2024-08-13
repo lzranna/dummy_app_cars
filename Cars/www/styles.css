@@ -1,0 +1,77 @@
+body {
+  font-family: Inter;
+}
+
+h2 {
+  font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.container-fluid {
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 16px;
+    background-color:#FCFCFD ;
+}
+
+.well {
+  background-color: #FFFFFF;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+}
+
+.irs {
+  font-family: Poppins;
+}
+
+
+.irs--shiny .irs-bar {
+  background: #7F56D9 ;
+  border-bottom: #7F56D9;
+  border-top: #7F56D9;
+}
+
+.irs--shiny .irs-grid-pol.small {
+    display: none;
+}
+
+.irs--shiny .irs-grid-pol {
+    display: none;
+}
+
+.irs--shiny .irs-from, .irs--shiny .irs-to {
+  display: none;
+}
+
+.irs--shiny .irs-handle {
+  border: 2px solid #7F56D9;
+  background-color: #FFFFFF;
+}
+
+
+table {
+  width: 100%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  border-collapse:separate;
+  border-radius:6px;
+}
+
+.shiny-table.spacing-s>thead>tr>th, .shiny-table.spacing-s>thead>tr>td, .shiny-table.spacing-s>tbody>tr>th, .shiny-table.spacing-s>tbody>tr>td, .shiny-table.spacing-s>tfoot>tr>th, .shiny-table.spacing-s>tfoot>tr>td {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  vertical-align: middle;
+}
+
+tr:nth-child(even) {
+  background-color: #E4E7EC;
+}
+
+
+input[type="radio"]:checked {
+    accent-color:#7F56D9;
+} 
+
+
+
+
